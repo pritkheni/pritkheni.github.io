@@ -1,34 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>BEAUTYFULL GUJRAT.COM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza restaurant </title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b3772cb3ce.js" crossorigin="anonymous"></script>
 </head>
-<body background="https://cdn1.goibibo.com/t_tg_fs/gujarat-kutch-148753554412-orijgp.jpg" link="#000" alink="#000" vlink="#fff">
-	<br />
-	<h3 align="center">
-		<font color="white" face="lato" size="6">LOGO</font>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<font face="cinzel">
-			<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="#">Video</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="#">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="Login_Form.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="Registration_Form.html">Registration</a>
-		</font>
-	</h3>
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	<h1 align="center">
-		<font face="lato" color="#FFFFFF" size="7">
-			WELCOME  TO  GUAJRAT  TOURISM		
-		</font>
-		<h3 align="center">
-			<font face="lato" color="#FFFFFF" size="4">KHUSBOO GUJARAT KI</font>
-			
-		</h3>
-	</h1>
+
+<body>
+    <div id="menu" class="menu">
+        <div id="menu__bar" onclick="onClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+            <ul id="nav" class="nav">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#food">Menu</a></li>
+                <li><a href="#">Contect</a></li>
+                <li><a href="Signin.html" target="togle">SignIn</a></li>
+            </ul>
+        </div>
+    </div>
+    <header id="Home" class="header">
+        <div class="header__info">
+            <h1 class="title">
+                Food For Helth
+            </h1>
+            <a href="#" class="header__button button__animation">
+                book a Table
+            </a>
+        </div>
+    </header>
+    <!-- section department==================================================== -->
+    <section id="about">
+        <div>
+            <h2 class="title__title">About Us</h2>
+        </div>
+        <div class="about__center">
+            <article class="about">
+                <div class="about__icon"><i class="fas fa-mug-hot"></i>></div>
+                <div class="about__info">
+                    <h1 class="about__subtitle">
+                        Drink
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, dolorem.
+                    </p>
+                </div>
+            </article>
+            <article class="about">
+                <div class="about__icon"><i class="fas fa-utensils"></i>></div>
+                <div class="about__info">
+                    <h1 class="about__subtitle">
+                        Helthy Food
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, dolorem.
+                    </p>
+                </div>
+            </article>
+            <article class="about">
+                <div class="about__icon"><i class="fas fa-mortar-pestle"></i>></div>
+                <div class="about__info">
+                    <h1 class="about__subtitle">
+                        Organic Food
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, dolorem.
+                    </p>
+                </div>
+            </article>
+            <article class="about">
+                <div class="about__icon"><i class="fas fa-drumstick-bite"></i>></div>
+                <div class="about__info">
+                    <h1 class="about__subtitle">
+                        White meat
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, dolorem.
+                    </p>
+                </div>
+            </article>
+            <article class="about">
+                <div class="about__icon"><i class="fas fa-fish"></i>></div>
+                <div class="about__info">
+                    <h1 class="about__subtitle">
+                        See Food
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, dolorem.
+                    </p>
+                </div>
+            </article>
+            <article class="about">
+                <div class="about__icon"><i class="fas fa-pepper-hot"></i>></div>
+                <div class="about__info">
+                    <h1 class="about__subtitle">
+                        Hot & Spice
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, dolorem.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- ============================================================= -->
+    <section id="menu" class="menu">
+        <article class="menue__image"></article>
+        <article class="menu__text">
+            <div class="menu__textCenter">
+                <h1>Our Menu</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa assumenda atque ipsum ullam amet
+                    asperiores veritatis tenetur corrupti corporis? Ex!</p>
+                <a href="#">Explore</a>
+            </div>
+        </article>
+    </section>
+    <!-- ========================================================================= -->
+    <section id="social__icon">
+        <a href="#"><i class="fab fa-facebook facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram instagram"></i></a>
+        <a href="#"><i class="fab fa-google-plus plus"></i></a>
+    </section>
+    <!-- ========================================================== -->
+    <section id="numbers">
+        <article class="numbers">
+            <i class="fas fa-cloud-meatball"></i>
+            <p>200</p>
+            <h3>Meat Dishes</h3>
+        </article>
+        <article class="numbers">
+            <i class="fas fa-cheese"></i>
+            <p>180</p>
+            <h3>Cheese Dishes</h3>
+        </article>
+        <article class="numbers">
+            <i class="fas fa-pizza-slice"></i>
+            <p>250</p>
+            <h3>Pizzas</h3>
+        </article>
+        <article class="numbers">
+            <i class="fas fa-ice-cream"></i>
+            <p>50</p>
+            <h3>Desserts</h3>
+        </article>
+    </section>
+    <!-- ====================================== -->
+    <section id="food">
+        <div>
+            <h2 class="title__title">Food Fusion</h2>
+        </div>
+        <div class="food__container">
+            <!-- =============================== -->
+            <article class="food__card">
+                <img src="images/breakfast.jpg" alt="" class="food__imag">
+                <div class="image__text">
+                    <h1>Breakfast</h1>
+                </div>
+                <div class="image__footer">
+                    <div class="footer__icon">
+                        <i class="fa fa-inr">500</i>
+                    </div>
+                    <div class="footer__button">
+                        <button type="button" class="food__button">Order Now</button>
+                    </div>
+                </div>
+            </article>
+            <!-- =========================================================================================== -->
+            <article class="food__card">
+                <img src="images/lunch.jpg" alt="" class="food__imag">
+                <div class="image__text">
+                    <h1>Lunch</h1>
+                </div>
+                <div class="image__footer">
+                    <div class="footer__icon">
+                        <i class="fa fa-inr">700</i>
+                    </div>
+                    <div class="footer__button">
+                        <button type="button" class="food__button">Order Now</button>
+                    </div>
+                </div>
+            </article>
+            <!-- =========================================================================================== -->
+            <article class="food__card">
+                <img src="images/dinner.jpg" alt="" class="food__imag">
+                <div class="image__text">
+                    <h1>Dinner</h1>
+                </div>
+                <div class="image__footer">
+                    <div class="footer__icon">
+                        <i class="fa fa-inr">1000</i>
+                    </div>
+                    <div class="footer__button">
+                        <button type="button" class="food__button">Order Now</button>
+                    </div>
+                </div>
+            </article>
+            <!-- =========================================================================================== -->
+        </div>
+    </section>
+    <!-- ==================================================================================================== -->
+    <section id="gallery">
+        <div>
+            <h1 class="title__title">
+                Main Cuisianes
+            </h1>
+            <div id="gallery__center">
+                <article class="gallery__item">
+                    <a href="images/img1.jpg"></a>
+                    <img src="images/img1.jpg" alt="">
+                </article>
+                <article class="gallery__item">
+                    <a href="images/img2.jpg"></a>
+                    <img src="images/img2.jpg" alt="">
+                </article>
+                <article class="gallery__item">
+                    <a href="images/img3.jpg"></a>
+                    <img src="images/img3.jpg" alt="">
+                </article>
+                <article class="gallery__item">
+                    <a href="images/img4.jpg"></a>
+                    <img src="images/img4.jpg" alt="">
+                </article>
+                <article class="gallery__item">
+                    <a href="images/img5.jpg"></a>
+                    <img src="images/img5.jpg" alt="">
+                </article>
+                <article class="gallery__item">
+                    <a href="images/img6.jpg"></a>
+                    <img src="images/img6.jpg" alt="">
+                </article>
+                <article class="gallery__item">
+                    <a href="images/img7.jpg"></a>
+                    <img src="images/img7.jpg" alt="">
+                </article>
+                <article class="gallery__item">
+                    <a href="images/img8.jpg"></a>
+                    <img src="images/img8.jpg" alt="">
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="section__center">
+            <p class="text">
+                &copy;<span>Food For Helth</span>
+            </p>
+        </div>
+    </footer>
+    <script src="onClickMenu.js"></script>
 </body>
+
 </html>
